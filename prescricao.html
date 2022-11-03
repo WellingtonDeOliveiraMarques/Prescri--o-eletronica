@@ -7,21 +7,21 @@
     <title>Precrição Médica</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
 
     <div class="table-responsive">
         <table class="table table-bordered align-middle">
-            <thead>
                 <tr>
-                    <th rowspan="4"><img src="imagem/logo medico.jpg" alt="Logo Médico"></th>
-                    <th colspan="3" class="">Nome do Hospital</th>
-                    <th rowspan="4"><img src="imagem/hospital.jpg" alt="Logo Hospital"></th>
+                    <th rowspan="4" id="imgMed"><img src="imagem/logo medico.jpg" class="rounded float-start h-100 d-inline-block" style="width: 120px" alt="Logo Médico"></th>
+                    <th colspan="3" class="text-center">Nome do Hospital</th>
+                    <th rowspan="4" id="imgHosp" class=""><img src="imagem/hospital.jpg" class="rounded float-end h-100 d-inline-block" style="width: 120px" alt="Logo Hospital"></th>
                 </tr>
                 <tr>
-                    <td colspan="2">Nome do Medico</td>
+                    <td colspan="2" class="text-start w-50">Nome do Medico</td>
                     <td>Data</td>
                 </tr>
                 <tr>
@@ -29,22 +29,20 @@
                 </tr>
                 <tr>
                     <td>Nome do Paciente</td>
-                    <td>Setor</td>
-                    <td>convenio</td>
+                    <td>Convenio</td>
+                    <td>setor</td>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Prescrição Médica</th>
-                    <th>Horarios</th>
-                    <th>Anotações</th>
-                </tr>
-
-            </tbody>
-            <tfoot>
-
-            </tfoot>
         </table>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+                <tr>
+                    <th colspan="2" class="text-center w-50 p-2">Prescrição Médica</th>
+                    <th class="text-center w-25 p-2">Horarios</th>
+                    <th colspan="2" class="text-center w-25 p-2">Anotações</th>
+                </tr>
+
+            </table>
     </div>
        
 </body>
